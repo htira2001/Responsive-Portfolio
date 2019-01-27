@@ -1,0 +1,96 @@
+body {
+  background: url("./assets/images/concrete_seamless.png");
+}
+
+.navbar-brand {
+  font-size: 50px; 
+  margin-top:20px; 
+  margin-bottom:20px; 
+  font-family: 'Oswald', sans-serif;
+  color:blue; 
+  
+}
+#names{
+  margin-left: 14px;
+}
+
+#navbarlink {
+  font-family: 'Oswald', sans-serif; 
+  font-size: 28px; 
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  margin-right: 20px; 
+  
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Oswald', sans-serif;
+}
+.contact{
+  font: bold;
+  font-size: 28px;
+}
+.container{
+  background: url("../assets/images/Background.jpg");
+  padding-top:60px; 
+}
+.portfolio-item{
+  float: left;
+  margin:10px;
+
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 980px) {
+
+  .navbar header {
+    max-width: 960px;
+  }
+  .maincontainer {
+    margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .header {
+    width: 100%;
+  }
+  #aboutme {
+    width: 100%;
+    float: none;
+    max-width: none;
+  }
+  .sociallinks {
+    width: 40%;
+    min-width: 220px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  .header {
+    display: block;
+  }
+  .name{
+    width: 100%;
+  }
+  }
+  #profilepicture{
+    float: none;
+    margin: 0 auto 15px auto;
+    position: unset;
+    width: 100%;
+  }
